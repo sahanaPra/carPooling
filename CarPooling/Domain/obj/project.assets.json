@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Contract.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Contract.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contract.Domain.dll": {}
+        }
+      },
+      "Contract.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Contract.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contract.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contract.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Contract.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Contract.Domain/Contract.Domain.csproj",
+      "msbuildProject": "../Contract.Domain/Contract.Domain.csproj"
+    },
+    "Contract.Repository/1.0.0": {
+      "type": "project",
+      "path": "../Contract.Repository/Contract.Repository.csproj",
+      "msbuildProject": "../Contract.Repository/Contract.Repository.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Contract.Domain >= 1.0.0",
+      "Contract.Repository >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\VKQ0\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Domain\\Domain.csproj",
+      "projectName": "Domain",
+      "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\VKQ0\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\VKQ0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://alm.eurofins.local/sharedcomponents/nuget": {},
+        "http://eol_ci_build_master_ehad/nuget": {},
+        "http://eol_ci_build_master_india/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Domain\\Contract.Domain.csproj": {
+              "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Domain\\Contract.Domain.csproj"
+            },
+            "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Repository\\Contract.Repository.csproj": {
+              "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Repository\\Contract.Repository.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\CarPooling\\CarPooling.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\CarPooling\\CarPooling.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\CarPooling\\CarPooling.csproj",
+        "projectName": "CarPooling",
+        "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\CarPooling\\CarPooling.csproj",
+        "packagesPath": "C:\\Users\\VKQ0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\CarPooling\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VKQ0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://alm.eurofins.local/sharedcomponents/nuget": {},
+          "http://eol_ci_build_master_ehad/nuget": {},
+          "http://eol_ci_build_master_india/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Domain\\Contract.Domain.csproj": {
+                "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Domain\\Contract.Domain.csproj"
+              },
+              "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Repository\\Contract.Repository.csproj": {
+                "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Repository\\Contract.Repository.csproj"
+              },
+              "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Repository\\Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Domain\\Contract.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Domain\\Contract.Domain.csproj",
+        "projectName": "Contract.Domain",
+        "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Domain\\Contract.Domain.csproj",
+        "packagesPath": "C:\\Users\\VKQ0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VKQ0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://alm.eurofins.local/sharedcomponents/nuget": {},
+          "http://eol_ci_build_master_ehad/nuget": {},
+          "http://eol_ci_build_master_india/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Repository\\Contract.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Repository\\Contract.Repository.csproj",
+        "projectName": "Contract.Repository",
+        "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Repository\\Contract.Repository.csproj",
+        "packagesPath": "C:\\Users\\VKQ0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VKQ0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://alm.eurofins.local/sharedcomponents/nuget": {},
+          "http://eol_ci_build_master_ehad/nuget": {},
+          "http://eol_ci_build_master_india/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Domain\\Contract.Domain.csproj": {
+                "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Domain\\Contract.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\VKQ0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VKQ0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://alm.eurofins.local/sharedcomponents/nuget": {},
+          "http://eol_ci_build_master_ehad/nuget": {},
+          "http://eol_ci_build_master_india/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Domain\\Contract.Domain.csproj": {
+                "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Domain\\Contract.Domain.csproj"
+              },
+              "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Repository\\Contract.Repository.csproj": {
+                "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Repository\\Contract.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\VKQ0\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\VKQ0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://alm.eurofins.local/sharedcomponents/nuget": {},
+          "http://eol_ci_build_master_ehad/nuget": {},
+          "http://eol_ci_build_master_india/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Repository\\Contract.Repository.csproj": {
+                "projectPath": "C:\\Users\\VKQ0\\Source\\repos\\CarPooling\\Contract.Repository\\Contract.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
